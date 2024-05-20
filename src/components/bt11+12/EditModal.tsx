@@ -10,9 +10,9 @@ export default function EditModal() {
       
   return (
     <div>
-      <div className="modal">
-      <div className="modal-content">
-        <h3>Chỉnh sửa công việc</h3>
+      <div className="form">
+      <div className="text-1">
+        <b>Chỉnh sửa</b>
         <input 
           type="text" 
           value={name} 
